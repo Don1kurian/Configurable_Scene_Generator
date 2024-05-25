@@ -1,0 +1,9 @@
+weld_piece:
+joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 20
+
+weld_line_to_2_position_controller:
+    type: effor_controllers/JointPositionController
+    joint: weld_line_to_2
+    pid: {p: 1.0, i: 1.0, d: 0.0}

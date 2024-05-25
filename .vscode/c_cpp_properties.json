@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/noetic/include/**",
+        "/home/don/your_workspace/devel/include/**",
+        "/home/don/your_workspace/src/franka_control/include/**",
+        "/home/don/your_workspace/src/franka_example_controllers/include/**",
+        "/home/don/your_workspace/src/franka_gazebo/include/**",
+        "/home/don/your_workspace/src/franka_gripper/include/**",
+        "/home/don/your_workspace/src/franka_hw/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

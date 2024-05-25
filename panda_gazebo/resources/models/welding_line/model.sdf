@@ -1,0 +1,37 @@
+<sdf version="1.7">
+  <model name="welding_line">
+    <link name="link">
+      <inertial>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.166667</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.166667</iyy>
+          <iyz>0</iyz>
+          <izz>0.166667</izz>
+        </inertia>
+        <pose>0.5899923045627683 0.1593102883465877 0.2105226930361697 0.0 -0.0 -3.0098888425615944</pose>
+      </inertial>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+      <pose>0 0 0 0 -0 0</pose>
+      <gravity>1</gravity>
+      <visual name="visual">
+        <geometry>
+          <box>
+<size>0.4 0.005 0.001</size>
+</box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Black</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
+      </visual>
+    </link>
+    <static>1</static>
+  </model>
+</sdf>

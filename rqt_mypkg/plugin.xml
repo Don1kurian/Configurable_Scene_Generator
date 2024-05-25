@@ -1,0 +1,12 @@
+<library path="src">
+  <class name="My Plugin" type="rqt_mypkg.SceneGenerator.SceneGenerationHMIPlugin" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      GUI Plugin to Configure the workstation
+    </description>
+    <qtgui>
+      <label>Workstation HMI</label>
+      <icon type="theme">system-help</icon>
+      <statustip>Great user interface to provide real value.</statustip>
+    </qtgui>
+  </class>
+</library>

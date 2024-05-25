@@ -1,0 +1,30 @@
+<sdf version="1.7">
+  <model name="workpiece">
+    <link name="link">
+      <inertial>
+        <mass>1</mass>
+        <pose>0.5948852756056624 0.12248613019504806 0.2050087169003294 0.0 -0.0 1.7028964646179918</pose>
+      </inertial>
+      <visual name="visual">
+        <geometry>
+          <box>
+<size>0.3 0.4 0.01</size>
+</box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/White</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+          <shader type="pixel">
+            <normal_map>__default__</normal_map>
+          </shader>
+        </material>
+        <transparency>0</transparency>
+        <cast_shadows>1</cast_shadows>
+      </visual>
+    </link>
+    <static>1</static>
+    <allow_auto_disable>1</allow_auto_disable>
+  </model>
+</sdf>
